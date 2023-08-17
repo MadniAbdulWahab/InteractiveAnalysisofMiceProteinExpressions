@@ -8,31 +8,53 @@ In this project, I conducted an in-depth exploratory data analysis and created a
 <h2>Project Features and Steps</h2>
 
 <b>Data Cleaning and Preprocessing: </b> 
+
 -Loaded the dataset using pandas.
+
 -Handled missing values by filling them with mean values.
+
 -Extracted subgroups "t-CS-s" and "c-CS-s" from the dataset.
 
 <b>Parallel Coordinates Plot: </b>
+
 -Utilized the Plotly library to create a parallel coordinates plot.
+
 -Plotted the protein expressions (pPKCG N, pP70S6 N, pS6 N, pGSK3B N, ARC N) for the two classes with distinct colors.
+
 -Annotated each axis with the corresponding protein name.
 
 <b>Dimensionality Reduction Techniques: </b>
+
 -Applied PCA, ISOMAP, and t-SNE as dimensionality reduction techniques to the dataset.
+
 -Visualized the reduced data using scatter plots for each technique.
+
 -Created an interactive interface using the Dash framework.
 
 <b>Interactive Dashboard: </b>
+
 -Built a Dash application with a user-friendly interface.
+
 -Included a radio component for users to select between PCA, ISOMAP, and t-SNE.
+
 -Displayed a scatter plot based on the selected dimensionality reduction technique.
+
 -Added dropdown menus to select the protein expressions for x and y axes.
 
+
 <b>Dynamic Scatter Plots: </b>
+
 -Implemented the ability to add multiple scatter plots.
+
 -Included an "Add" button that replicates the scatter plot with the current axis settings.
+
 -Accommodated the addition of multiple scatter plots below the existing ones.
 
+
+Here is how the Dashboard looks like:
+![mice protein project](https://github.com/MadniAbdulWahab/InteractiveAnalysisofMiceProteinExpressions/assets/105889425/105f8a52-3c9b-4dd3-9885-2260905ee8c5)
+
+The below three scatterplots are added by the user through clicking on the add button. User can add many number of scatterplots according to his need.
 <h2Technologies and Libraries Used:</h2>
 I used the following languages and libraries during the development of this project: 
 - <b>Python: </b>  The primary programming language for data analysis and visualization.
